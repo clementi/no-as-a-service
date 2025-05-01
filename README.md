@@ -15,7 +15,7 @@ https://localhost:3000/api/no
 **Method**: GET
 
 ### 🔄 Example Request
-```
+```http
 GET /api/no
 ```
 
