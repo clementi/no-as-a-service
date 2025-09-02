@@ -28,6 +28,20 @@ GET /api/no
 
 Use it in apps, bots, landing pages, Slack integrations, rejection letters, or wherever you need a polite (or witty) no.
 
+## Building
+
+Use just:
+
+```sh
+just build
+```
+
+## Running
+
+```sh
+just run
+```
+
 ## 👤 Author
 
 Taken shamelessly from [hotheadhacker](https://github.com/hotheadhacker) and re-implemented in Clojure.
