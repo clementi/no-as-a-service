@@ -1,4 +1,4 @@
-# No as a service
+# No as a service (Clojure)
 
 ![](./NaaS.png "No as a Service")
 
