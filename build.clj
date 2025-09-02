@@ -4,7 +4,7 @@
 (def lib 'naas)
 (def version "0.1.0")
 (def class-dir "target/classes")
-(def basis (b/create-bassis {:project "deps.edn"}))
+(def basis (b/create-basis {:project "deps.edn"}))
 (def uber-file (format "target/%s-%s-standalone.jar" (name lib) version))
 
 (defn clean [_]
