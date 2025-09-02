@@ -1,4 +1,4 @@
-(ns naas
+(ns naas.core
   (:require
    [muuntaja.core :as m]
    [reitit.coercion.spec]
@@ -7,7 +7,8 @@
    [reitit.ring.middleware.parameters :as parameters]
    [reitit.ring.coercion :as rrc]
    [ring.adapter.jetty :as jetty]
-   [clojure.data.json :as json]))
+   [clojure.data.json :as json])
+  (:gen-class))
 
 (def reasons (json/read-str (slurp "./reasons.json")))
 
