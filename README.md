@@ -30,7 +30,7 @@ Use it in apps, bots, landing pages, Slack integrations, rejection letters, or w
 
 ## Building
 
-Use just:
+Use [just](https://github.com/casey/just):
 
 ```sh
 just build
